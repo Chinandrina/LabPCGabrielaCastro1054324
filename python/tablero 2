@@ -1,0 +1,18 @@
+from tkinter import*
+class tablero(Tk):
+def _init_(self,*args,**kwargs):
+    super()._init_(*args,**kwargs)
+    self.geometry("640x640")
+    self.tablero=Canvas(self)
+    self.tablero.pack(fill="both",expand=1)
+    self.cuadrado()
+    def cuadrado(self):
+        for i in range(8):
+            for j in range(8):
+                if (i+j)%2==0:
+                    self.tablero.create_rectangle(i*80,j*80,(i+1)*80,(j+1)*80)
+                else:
+                    self.tablero.create_rectangle(i*80,j*80,(i+1)*80,(j+1)*80)
+    if __name__="main__":
+app=tablero()
+app.mainloop()

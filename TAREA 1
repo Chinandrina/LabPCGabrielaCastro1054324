@@ -1,0 +1,54 @@
+import math
+
+print ("primera tarea suma")
+num1= input("Ingrese el numero  ")
+num2= input("ingrese segundo numero  ")
+num1= int(num1)
+num2= int(num2)
+
+suma= num1+num2
+print("El resultado de la suma es:")
+print(suma)
+
+
+
+print ("primera tarea resta")
+num1= input("Ingrese el numero  ")
+num2= input("ingrese segundo numero  ")
+num1= int(num1)
+num2= int(num2)
+
+resta= num1-num2
+print("El resultado de la resta es:")
+print(resta)
+
+
+
+print ("primera tarea multiplicación")
+num1= input("Ingrese el numero  ")
+num2= input("ingrese segundo numero  ")
+num1= int(num1)
+num2= int(num2)
+
+multiplicacion= num1*num2
+print("El resultado de la multiplicación es:")
+print(multiplicacion)
+
+
+
+print ("primera tarea división")
+num1= input("Ingrese el numero  ")
+num2= input("ingrese segundo numero  ")
+num1= int(num1)
+num2= int(num2)
+
+division= num1/num2
+print("El resultado de la división es:")
+print(division)
+
+
+
+raíz= math.sqrt(num1)
+print("El resultado de la división es:" + str(raíz))
+potencial= math.sqrt(num1)
+print ("la potencia es " + str(potencial))

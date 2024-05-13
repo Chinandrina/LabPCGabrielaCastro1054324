@@ -1,0 +1,13 @@
+def imprimir_tablero(tablero):
+    for fila in tablero:
+        print("".join(fila))
+def crear_tablero():
+    tablero = []
+    for _ in range(8):
+        fila = ["□"] * 8 # "□" representa una casilla vacia
+        tablero.append(fila)
+        return tablero
+        tablero = crear_tablero()
+        tablero[0][0]="♜"
+        tablero[0][3] = "♛"
+imprimir_tablero(tablero)

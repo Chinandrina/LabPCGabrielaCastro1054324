@@ -1,0 +1,7 @@
+
+print ("celsius a Fathengeir")
+num1 = input("ingrese una temperatura en celcius")
+num1 = float (num1)
+
+c= (num1 - 32)/1.8
+print ("la raíz cuadrada es (raíz. 2f)")

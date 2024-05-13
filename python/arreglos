@@ -1,0 +1,20 @@
+n = int(input ("Ingrese la cantidad de números"))
+lista = []
+
+for i in range (n):
+     valor = int(int( "Ingrese un numero"))
+     lista. append(valor)
+
+sumatoria = 0
+for i in lista:
+    sumatoria = sumatoria+i
+promedio = sumatoria/n
+
+print("El promedio es "+ str(promedio))
+numerador=0
+for i in lista: 
+     numerador=(promedio-i)**2
+
+desviación= math.sqrt(numerador/n)
+
+print("La desviación estándar es" + str(desviación))
